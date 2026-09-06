@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 112" role="img" aria-label="Currently exploring system design, distributed systems, AI-native applications, secure software and developer tooling">
+  <style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.dim{fill:#8b949e}.path{stroke:#30363d}</style>
+  <rect x="1" y="1" width="758" height="110" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="25" y="29" class="m" fill="#58a6ff" font-size="11" letter-spacing="1">EXPLORATION QUEUE</text>
+  <path d="M75 71H685" class="path"/><g class="m" font-size="10" text-anchor="middle"><circle cx="75" cy="71" r="5" fill="#58a6ff" class="dot"/><text x="75" y="96" class="dim">SYSTEM DESIGN</text><circle cx="228" cy="71" r="5" fill="#39c5cf" class="dot"/><text x="228" y="96" class="dim">DISTRIBUTED SYSTEMS</text><circle cx="380" cy="71" r="5" fill="#d2a8ff" class="dot"/><text x="380" y="96" class="dim">AI-NATIVE APPS</text><circle cx="532" cy="71" r="5" fill="#3fb950" class="dot"/><text x="532" y="96" class="dim">SECURE SOFTWARE</text><circle cx="685" cy="71" r="5" fill="#f0883e" class="dot"/><text x="685" y="96" class="dim">DEV TOOLING</text></g>
+</svg>

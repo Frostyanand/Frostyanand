@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 172" role="img" aria-label="Research and community work">
+  <style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.dim{fill:#8b949e}.line{stroke:#30363d}</style>
+  <rect x="1" y="1" width="758" height="170" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="25" y="29" class="m" fill="#58a6ff" font-size="11" letter-spacing="1">RESEARCH / COMMUNITY</text><path d="M380 45V171M1 45H759" class="line"/>
+  <text x="25" y="73" class="m" fill="#f0f6fc" font-size="12">ACM SIGKDD / SRMIST</text><text x="25" y="96" class="s" fill="#c9d1d9" font-size="14">Research &amp; Development Head</text><text x="25" y="120" class="m" fill="#39c5cf" font-size="10">40+ MEMBERS MENTORED · 5+ TECHNICAL EVENTS</text><text x="25" y="141" class="m dim" font-size="10">ML · DEEP LEARNING · NLP · GENAI · CNN · OPENCV · YOLO · RAG</text>
+  <text x="408" y="73" class="m" fill="#f0f6fc" font-size="12">GOOGLE DEVELOPER GROUPS</text><text x="408" y="96" class="s" fill="#c9d1d9" font-size="14">Technical Team Member</text><text x="408" y="120" class="m" fill="#3fb950" font-size="10">FULL-STACK · CLOUD-NATIVE · DEVELOPER INITIATIVES</text><text x="408" y="141" class="m dim" font-size="10">BUILDING WITH ENGINEERING COMMUNITIES</text>
+</svg>

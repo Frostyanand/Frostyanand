@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 190" role="img" aria-label="Hyper-realistic handwriting synthesis research">
+  <style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.dim{fill:#8b949e}.line{stroke:#30363d}.ink{stroke-linecap:round}</style>
+  <rect x="1" y="1" width="758" height="188" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="25" y="29" class="m" fill="#d2a8ff" font-size="11" letter-spacing="1">05 / HYPER-REALISTIC HANDWRITING SYNTHESIS</text><text x="735" y="29" text-anchor="end" class="m dim" font-size="10">RESEARCH / ML / COMPUTER VISION</text><path d="M1 45H759M1 154H759" class="line"/>
+  <rect x="25" y="68" width="224" height="66" rx="6" fill="#161b22" stroke="#30363d"/><path d="M47 116c17-31 17 9 33-17 6-10 11-5 8 5 12-24 17 8 31-12 7-11 8 13 22 3 10-7 15-20 25-5 10 14 19-1 30-11" class="ink" fill="none" stroke="#d2a8ff" stroke-width="2" stroke-linecap="round"/>
+  <text x="36" y="82" class="m dim" font-size="9">STRUCTURED STROKE INPUT</text>
+  <path d="M249 101H270" stroke="#d2a8ff" stroke-dasharray="4 4"/><path d="M264 96l8 5-8 5" fill="none" stroke="#d2a8ff"/>
+  <text x="292" y="74" class="s" fill="#f0f6fc" font-size="16">Studying handwriting as structured visual signal.</text>
+  <text x="292" y="102" class="m" fill="#c9d1d9" font-size="11">HANDWRITTEN INPUT → MODEL REPRESENTATION → GENERATED STROKES</text>
+  <text x="292" y="128" class="m" fill="#d2a8ff" font-size="11">MACHINE LEARNING · COMPUTER VISION · RESEARCH</text>
+  <text x="25" y="176" class="m dim" font-size="10">EXPERIMENTAL WORK — INTENTIONALLY DESCRIBED WITHOUT INVENTED MODEL OR DATASET CLAIMS</text>
+</svg>

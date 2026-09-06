@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 150" role="img" aria-label="Anurag Anand identity module">
+  <style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.dim{fill:#8b949e}.line{stroke:#30363d}</style>
+  <rect x="1" y="1" width="758" height="148" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <path d="M1 43H759M493 43V114M1 114H759" class="line"/>
+  <text x="25" y="27" class="m" fill="#58a6ff" font-size="11" letter-spacing="1">&gt; WHOAMI</text>
+  <text x="25" y="75" class="s" fill="#f0f6fc" font-size="22" font-weight="600">Anurag Anand</text>
+  <text x="25" y="98" class="m dim" font-size="12">CSE UNDERGRADUATE @ SRMIST</text>
+  <text x="518" y="70" class="m dim" font-size="10" letter-spacing=".8">ACADEMIC WINDOW</text>
+  <text x="518" y="93" class="s" fill="#c9d1d9" font-size="16">2024 — 2028</text>
+  <text x="518" y="109" class="m" fill="#3fb950" font-size="11">CGPA 9.88</text>
+  <text x="25" y="136" class="m" fill="#58a6ff" font-size="11">SOFTWARE</text><text x="124" y="136" class="m" fill="#39c5cf" font-size="11">AI / ML</text><text x="209" y="136" class="m" fill="#c9d1d9" font-size="11">SYSTEMS</text><text x="310" y="136" class="m" fill="#c9d1d9" font-size="11">CLOUD</text><text x="390" y="136" class="m" fill="#d2a8ff" font-size="11">SECURITY</text>
+</svg>
