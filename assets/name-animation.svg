@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 96" width="100%" role="img" aria-label="Anurag Anand">
+  <defs>
+    <linearGradient id="frostGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff">
+        <animate attributeName="stop-color" values="#58a6ff;#39c5cf;#a371f7;#79c0ff;#58a6ff" dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="35%" stop-color="#39c5cf">
+        <animate attributeName="stop-color" values="#39c5cf;#a371f7;#79c0ff;#58a6ff;#39c5cf" dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="70%" stop-color="#a371f7">
+        <animate attributeName="stop-color" values="#a371f7;#79c0ff;#58a6ff;#39c5cf;#a371f7" dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#79c0ff">
+        <animate attributeName="stop-color" values="#79c0ff;#58a6ff;#39c5cf;#a371f7;#79c0ff" dur="7s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    .name-text {
+      font-weight: 800;
+      font-size: 34px;
+      letter-spacing: 7px;
+      fill: url(#frostGrad);
+      filter: url(#glow);
+      animation: glowPulse 5s ease-in-out infinite;
+    }
+    .cursor {
+      animation: blink 1.05s steps(1) infinite;
+      fill: #39c5cf;
+    }
+    .bracket {
+      fill: #8b949e;
+      font-size: 24px;
+      font-weight: 300;
+      opacity: 0.6;
+    }
+    .tagline {
+      fill: #8b949e;
+      font-size: 10px;
+      letter-spacing: 2px;
+      opacity: 0.85;
+    }
+    .line-flow {
+      stroke-dasharray: 6 8;
+      animation: flow 3s linear infinite;
+    }
+    .dot-pulse {
+      animation: pulse 2.5s ease-in-out infinite;
+    }
+    @keyframes glowPulse {
+      0%, 100% { filter: drop-shadow(0 0 6px rgba(88,166,255,0.4)); }
+      50% { filter: drop-shadow(0 0 14px rgba(163,113,247,0.7)); }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes flow {
+      to { stroke-dashoffset: -28; }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.4; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.2); }
+    }
+  </style>
+
+  <!-- Centered container -->
+  <g transform="translate(380, 42)">
+    <!-- Tech brackets, Name, and Blinking Cursor -->
+    <text text-anchor="middle" class="sans name-text">
+      <tspan class="mono bracket">&lt; </tspan>ANURAG ANAND<tspan class="mono cursor" fill="#39c5cf">_</tspan><tspan class="mono bracket"> &gt;</tspan>
+    </text>
+
+    <!-- Subtitle / Meta Tag -->
+    <text y="28" text-anchor="middle" class="mono tagline">
+      <tspan fill="#58a6ff">//</tspan> CSE UNDERGRADUATE @ SRMIST <tspan fill="#58a6ff">·</tspan> FULL-STACK <tspan fill="#39c5cf">·</tspan> AI/ML <tspan fill="#a371f7">·</tspan> SYSTEMS
+    </text>
+  </g>
+
+  <!-- Ambient tech border lines on left and right -->
+  <line x1="30" y1="42" x2="90" y2="42" stroke="#30363d" stroke-width="1.5" />
+  <circle cx="95" cy="42" r="2.5" fill="#58a6ff" class="dot-pulse" />
+
+  <circle cx="665" cy="42" r="2.5" fill="#a371f7" class="dot-pulse" />
+  <line x1="670" y1="42" x2="730" y2="42" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Bottom subtle accent track -->
+  <line x1="160" y1="88" x2="600" y2="88" stroke="#30363d" stroke-width="1" stroke-opacity="0.6" />
+  <line x1="220" y1="88" x2="540" y2="88" stroke="url(#frostGrad)" stroke-width="1.5" class="line-flow" stroke-opacity="0.8" />
+</svg>
